@@ -51,7 +51,7 @@ useEffect (()=> {
               <tr>
                 <td>
                {
-                  messages.map(m => <h1 key={m.content}>{m.content}</h1>)
+                  messages.map(m => <h4 key={m.content}>{m.content}</h4>)
                   }
                   </td>
                   <td>
